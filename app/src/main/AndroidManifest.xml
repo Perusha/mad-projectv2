@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".PreviousRates"></activity>
+        <activity android:name=".Feedback" />
         <activity android:name=".DeliveryDetails" />
         <activity android:name=".CartActivity" />
         <activity android:name=".MainActivity">
@@ -19,21 +20,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".AddNewProduct"></activity>
+        <activity android:name=".AddNewProduct" />
         <activity
             android:name=".ProductAdmin"
             android:label="@string/title_activity_product_admin"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ProductCustomerMoreDetails" />
         <activity android:name=".ProductCustomerView" />
-
         <activity android:name=".GiveRates" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
     </application>
 
 </manifest>
